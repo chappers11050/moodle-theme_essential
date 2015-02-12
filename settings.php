@@ -205,6 +205,26 @@ if (is_siteadmin()) {
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
+    
+    // Messages sent colour setting.
+    $name = 'theme_essential/messageoutcolor';
+    $title = get_string('messageoutcolor', 'theme_essential');
+    $description = get_string('messageoutcolordesc', 'theme_essential');
+    $default = '#EAEAEA';
+    $previewconfig = null;
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+    $setting->set_updatedcallback('theme_reset_all_caches');
+    $temp->add($setting);
+    
+    // Messages received colour setting.
+    $name = 'theme_essential/messageincolor';
+    $title = get_string('messageincolor', 'theme_essential');
+    $description = get_string('messageincolordesc', 'theme_essential');
+    $default = '#E1FAFF';
+    $previewconfig = null;
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
+    $setting->set_updatedcallback('theme_reset_all_caches');
+    $temp->add($setting);
 
     // This is the descriptor for the Footer
     $name = 'theme_essential/footercolorinfo';
