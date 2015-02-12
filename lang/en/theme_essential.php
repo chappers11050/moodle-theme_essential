@@ -253,6 +253,11 @@ $string['colordesc'] = 'Here you can find various settings to change many of the
 $string['footercolors'] = 'Footer colours';
 $string['footercolorsdesc'] = 'Change the colours on the page footers';
 
+$string['messageoutcolor'] = 'Sent message colours';
+$string['messageoutcolordesc'] = 'Change the colour of the bubbles showing messages sent from you.';
+$string['messageincolor'] = 'Received message colours';
+$string['messageincolordesc'] = 'Change the colour of the bubbles showing messages received by you.';
+
 $string['themecolor'] = 'Theme colour';
 $string['themecolordesc'] = 'What colour should your theme be.  This will change multiple components to produce the colour you wish across the Moodle site';
 
