@@ -451,6 +451,14 @@ function theme_essential_process_css($css, $theme) {
     $themenavcolor = theme_essential_get_setting('themenavcolor');
     $css = theme_essential_set_color($css, $themenavcolor, '[[setting:themenavcolor]]', '#ffffff');
 
+    // Set the sent messages bubble colour.
+    $messageoutcolor = theme_essential_get_setting('messageoutcolor');
+    $css = theme_essential_set_color($css, $messageoutcolor, '[[setting:messageoutcolor]]', '#EAEAEA');
+    
+    // Set the received messages bubble colour.
+    $messageincolor = theme_essential_get_setting('messageincolor');
+    $css = theme_essential_set_color($css, $messageincolor, '[[setting:messageincolor]]', '#E1FAFF');
+
     // Set the footer colour.
     $footercolor = theme_essential_hex2rgba(theme_essential_get_setting('footercolor'), '0.95');
     $css = theme_essential_set_color($css, $footercolor, '[[setting:footercolor]]', '#555555');
