@@ -927,4 +927,12 @@ body {
 }
 /* @end Scrollbar */
 /* @end Custom */
+/* @group Messages */
+.message .messagearea .messagehistory .left {
+  background-color: [[setting:messageoutcolor]];
+  }
+  .message .messagearea .messagehistory .right {
+  background-color: [[setting:messageincolor]];
+  }
+/* @end */
 /*# sourceMappingURL=/theme/essential/style/essential-settings.treasure.map */
