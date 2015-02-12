@@ -7463,6 +7463,7 @@ a.ygtvspacer:hover {
 
 .message .time {
   font-style: italic;
+  font-size: 0.75em;
 }
 
 #page-message-user .commands span {
