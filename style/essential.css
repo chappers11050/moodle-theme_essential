@@ -6098,6 +6098,7 @@ a.ygtvspacer:hover {
 }
 .message .time {
   font-style: italic;
+  font-size: 0.75em;
 }
 #page-message-user .commands span {
   font-size: 0.7em;
@@ -6170,15 +6171,21 @@ table.message .searchresults td {
 }
 .message .messagearea .messagehistory .left {
   padding-bottom: 10px;
-  width: 50%;
+  max-width: 50%;
   float: left;
   clear: both;
+  border-radius: 15px;
+  padding: 2px 7px 0px 7px;
+  margin-bottom: 5px;
 }
 .message .messagearea .messagehistory .right {
   padding-bottom: 10px;
-  width: 50%;
+  max-width: 50%;
   float: right;
   clear: both;
+  border-radius: 15px;
+  padding: 2px 7px 0px 7px;
+  margin-bottom: 5px;
 }
 .message .messagearea .messagehistory .notification {
   min-height: 20px;
