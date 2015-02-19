@@ -16457,6 +16457,7 @@ ins {
 }
 #page,
 .pagelayout-redirect {
+  margin-top: 60px;
   padding-top: 10px;
   background-color: rgba(255, 255, 255, 0.6);
 }
@@ -18649,9 +18650,7 @@ table#greyboxleft h2 {
 /* @end */
 /* @group Header */
 #page-header {
-  height: 75px;
-  margin-top: 40px;
-  border-bottom: 1px solid #DDD;
+  display: none;
 }
 #page-header .row-fluid [class*="span"] {
   padding-right: 5px;
@@ -18870,7 +18869,8 @@ ul.socials li {
   top: 0px;
   right: 0px;
   background-image: none;
-  z-index: 200;
+  z-index: 200;  height: 50px;
+  box-shadow: 0px 3px 0px 0px #3E92FB;
 }
 .navbar .navbar-inner {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -18973,12 +18973,12 @@ ul.socials li {
   float: right;
 }
 .navbar .navbar-inner .usermenu .dropdown img.userpicture {
-  vertical-align: top;
-  width: auto;
+  vertical-align: -12px;
+  width: 55px;
   height: auto;
-  max-width: 20px;
-  max-height: 20px;
-  border-radius: 4px;
+  margin-bottom: -15px;
+  margin-top: -10px;
+  box-shadow: 0px 2px 0px 0px #3E92FB;
   margin-right: 2px;
 }
 .navbar .navbar-inner .usermenu .dropdown a.dropdown-toggle {
